@@ -67,7 +67,12 @@ Not all emulators support large texture packs efficiently.
 
 ## 📢 Acknowledgements
 
-Special thanks to all community members who’ve kept this project alive across forums, modding hubs, and emulator communities.
+Special thanks to all community members who've kept this project alive across forums, modding hubs, and emulator communities.
 
 > "Let the legend live on in higher definition."
+
+## 🔗 Legacy Links
+
+**Original Forum Thread:** [EmuTalk Forums](https://www.emutalk.net/threads/zelda-ocarina-of-time-community-retexture-project-v7.55307/)  
+**Original Download Location:** [EmulationKing](https://emulationking.com/nintendo/n64/games/zeldaocarinaoftime/texturepacks/community/)
 
