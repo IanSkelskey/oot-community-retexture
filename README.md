@@ -31,7 +31,7 @@ Textures submitted should strive to reflect what the original developers may hav
 ## 🗺️ Progress Overview
 
 This pack includes a wide range of completed and in-progress retextures.  
-See the full progress list [here](PROGRESS.md) (or in `AREA_PROGRESS.md` if published).
+See the full progress list [here](PROGRESS.md).
 
 Some highlights:
 
