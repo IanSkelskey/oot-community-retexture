@@ -1,0 +1,26 @@
+name: Zip and Upload Pack
+
+on:
+  push:
+    tags:
+      - '*'
+
+jobs:
+  zip-and-upload:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Install 7-Zip
+        run: sudo apt-get update && sudo apt-get install -y p7zip-full
+
+      - name: Create 7z archive of THE LEGEND OF ZELDA directory
+        run: 7z a "oot-community-retexture-${{ github.ref_name }}.7z" "THE LEGEND OF ZELDA"
+
+      - name: Upload 7z to release
+        uses: softprops/action-gh-release@v2
+        with:
+          files: oot-community-retexture-${{ github.ref_name }}.7z
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
